@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grisE"
+    android:background="@color/backBrown"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -13,35 +13,55 @@
         android:gravity="center"
         android:text="Gran Centre"
         android:textSize="40dp" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asdasf"
+        android:textSize="30dp"
+        >
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/b1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@color/backBrown"
+            android:src="@drawable/restaurant" />
 
-    <ImageButton
-        android:id="@+id/b1"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_gravity="center"
-        android:src="@drawable/restaurant" />
-
-    <ImageButton
-        android:id="@+id/b2"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_gravity="center"
-        android:src="@drawable/movies" />
-
-    <ImageButton
-        android:id="@+id/b3"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-
-        android:layout_gravity="center"
-        android:src="@drawable/hotel" />
-
-    <ImageButton
-        android:id="@+id/b4"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_gravity="center"
-        android:src="@drawable/transport" />
+        <ImageButton
+            android:id="@+id/b2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@color/backBrown"
+            android:src="@drawable/movies" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/b3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/backBrown"
+            android:layout_gravity="center"
+            android:src="@drawable/hotel" />
+        <ImageButton
+            android:id="@+id/b4"
+            android:layout_width="70dp"
+            android:background="@color/backBrown"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/transport" />
+    </LinearLayout>
 
 
 </LinearLayout>
