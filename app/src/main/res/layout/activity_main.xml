@@ -3,31 +3,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/grisE"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:background="@color/grisE">
+    tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Gran Centre"
         android:gravity="center"
-        android:textSize="40dp"
-        />
+        android:text="Gran Centre"
+        android:textSize="40dp" />
 
     <ImageButton
+        android:id="@+id/b1"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_gravity="center"
-        android:src="@drawable/restaurant"
-        android:id="@+id/b1"/>
+        android:src="@drawable/restaurant" />
 
     <ImageButton
+        android:id="@+id/b2"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_gravity="center"
-        android:src="@drawable/movies"
-        android:id="@+id/b2"/>
+        android:src="@drawable/movies" />
 
     <ImageButton
         android:id="@+id/b3"
@@ -38,11 +37,11 @@
         android:src="@drawable/hotel" />
 
     <ImageButton
+        android:id="@+id/b4"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:src="@drawable/transport"
         android:layout_gravity="center"
-        android:id="@+id/b4"/>
+        android:src="@drawable/transport" />
 
 
 </LinearLayout>
