@@ -11,27 +11,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Gran Centre"
-        android:textSize="40dp" />
+        android:text="@string/app_name"
+        android:textSize="40sp" />
+
     <TextView
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="asdasf"
-        android:textSize="30dp"
-        >
-    </TextView>
+        android:layout_marginTop="20sp"
+        android:text="@string/slogan"
+        android:textAlignment="center"
+        android:textSize="24sp"></TextView>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:gravity="center"
         android:orientation="horizontal">
+
         <ImageButton
             android:id="@+id/b1"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_gravity="center"
             android:background="@color/backBrown"
+            android:contentDescription="@string/restaurants"
             android:src="@drawable/restaurant" />
 
         <ImageButton
@@ -40,8 +44,10 @@
             android:layout_height="70dp"
             android:layout_gravity="center"
             android:background="@color/backBrown"
+            android:contentDescription="@string/cinema"
             android:src="@drawable/movies" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -53,6 +59,7 @@
             android:layout_height="70dp"
             android:background="@color/backBrown"
             android:layout_gravity="center"
+            android:contentDescription="@string/hotels"
             android:src="@drawable/hotel" />
         <ImageButton
             android:id="@+id/b4"
@@ -60,8 +67,14 @@
             android:background="@color/backBrown"
             android:layout_height="70dp"
             android:layout_gravity="center"
+            android:contentDescription="@string/transports"
             android:src="@drawable/transport" />
     </LinearLayout>
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/copyRights"
+        android:textSize="20sp"
+        android:gravity="bottom|center_horizontal"/>
 
 </LinearLayout>

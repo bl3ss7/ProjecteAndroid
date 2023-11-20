@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">ProjecteAndroid</string>
+    <string name="app_name">Gran Centre</string>
+    <string name="slogan">Una gran família que vol recuperar la ciutat per les persones</string>
+    <string name="copyRights">© 2023 ~ Ingrid i Biel</string>
+    <string name="restaurants">restaurants</string>
+    <string name="cinema">cinema</string>
+    <string name="hotels">hotels</string>
+    <string name="transports">transports</string>
 </resources>
