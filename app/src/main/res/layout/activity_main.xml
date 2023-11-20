@@ -32,6 +32,7 @@
             android:layout_height="70dp"
             android:layout_gravity="center"
             android:background="@color/backBrown"
+            android:contentDescription="restaurants"
             android:src="@drawable/restaurant" />
 
         <ImageButton
@@ -40,6 +41,7 @@
             android:layout_height="70dp"
             android:layout_gravity="center"
             android:background="@color/backBrown"
+            android:contentDescription="Pelis"
             android:src="@drawable/movies" />
     </LinearLayout>
     <LinearLayout
@@ -53,6 +55,7 @@
             android:layout_height="70dp"
             android:background="@color/backBrown"
             android:layout_gravity="center"
+            android:contentDescription="hotels"
             android:src="@drawable/hotel" />
         <ImageButton
             android:id="@+id/b4"
@@ -60,6 +63,7 @@
             android:background="@color/backBrown"
             android:layout_height="70dp"
             android:layout_gravity="center"
+            android:contentDescription="transport"
             android:src="@drawable/transport" />
     </LinearLayout>
 

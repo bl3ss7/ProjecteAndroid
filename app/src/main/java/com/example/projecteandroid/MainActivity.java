@@ -32,21 +32,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         b4.setOnClickListener(this);
     }
 
-    public void onClick(View view) {
-        Button b = (Button)view;
+    public void onClick(View v) {
 
-        if(b.getId() == R.id.b1){
+        if(v.getId() == R.id.b1){
             Intent intent = new Intent(this, Restaurantes.class);
             startActivity(intent);
         }
-        else if(b.getId() == R.id.b2){
+        else if(v.getId() == R.id.b2){
             Intent intent2 = new Intent(this, Movies.class);
             startActivity(intent2);
         }
-        else if(b.getId() == R.id.b3){
+        else if(v.getId() == R.id.b3){
             Intent intent3 = new Intent (this, Hoteles.class);
             startActivity(intent3);
-        }else if(b.getId() == R.id.b4){
+        }else if(v.getId() == R.id.b4){
             Intent intent4 = new Intent (this, Transport.class);
             startActivity(intent4);
         }
